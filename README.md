@@ -12,4 +12,10 @@ The processor keeps checking whether the input from GPIO 15 is 0. If it is, then
 
 ## Images
 An image of the breadboard layout is presented below.
-![Breadboard layout](pollimg.jpg)
+![Breadboard layout](images/pollimg.jpg)
+
+## Binaries folder
+In case you are not interested in building the project and only want to load the .elf or .uf2 files on your pico w, I included a "binaries" folder containing only those two files.
+
+## Similar projects to this one
+If you found this project interesting and want to see a different implementation, using interrupts instead of polling, you can find it [here](https://github.com/PanagiotisKarath/PicoW-LED-Blink-Interrupts). By using interrupts we achieve better CPU utilization, with minimal changes to the code.
